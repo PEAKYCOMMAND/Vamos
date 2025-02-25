@@ -1,0 +1,169 @@
+:root{
+  --color-white: #fff;
+  --color-blue1: #0B1C38;
+  --color-blue2: #1B4185;
+  --league-spartan: "League Spartan";
+  }
+
+body{
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  background-color: #000000;
+  font-family: var(--league-spartan);                  
+}
+
+/* header */
+
+.header{
+  padding: 0px 30px 0px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:aliceblue;
+  background-color: var(--color-blue2);
+
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+.header h1 {
+  font-size:40px;
+}
+.header img {
+  width: 50px;
+  height: 50px;
+}
+.header nav{
+ display: flex;
+ gap: 30px;
+}
+.header nav a {
+  font-size: 30px;
+ color: #fff;
+ text-decoration: none;
+}
+.menu {
+  display: none;
+}
+/* section one */
+.section-1 {
+  padding-top: 80px ;
+  min-height: 84vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-blue2);
+}
+.section-1 img {
+  width: 1000px;
+  border-radius: 20px ;
+}
+.section-1 h1 {
+  color: var(--color-white);
+  font-size: 40px;
+}
+
+.button-section-one{
+  padding: 30px;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 10px ;
+}
+.button-section-one a {
+  text-decoration: none;
+  font-size: 40px;
+  color: var(--color-white);
+  font-family: var(--league-spartan);
+  font-weight: 600;
+}
+
+.section-1 p {
+  font-size: 25px;
+}
+
+/* media */
+
+@media screen and  (max-width: 1300px) {
+  .section-1 {
+    padding-top: 40px ;
+    min-height: 84vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-blue2);
+  }
+  .section-1 img {
+    width: 600px;
+    border-radius: 20px ;
+  }
+
+}
+
+
+
+
+
+
+@media screen and  (max-width: 450px) {
+  .menu {
+    display: block;
+    color: var(--color-white);
+  }
+  .menu-button {
+    border: none;
+    background-color: transparent;
+  }
+
+  .header nav{
+   display: none;
+   gap: 10px;
+  }
+
+  .header{
+    padding: 0px 20px 0px 20px;
+  }
+
+  .header h1 {
+    font-size:18px;
+  }
+  .header img {
+    width: 22px;
+    height: 22px;
+  }
+  .header nav a {
+    font-size: 10px;
+   color: #fff;
+   text-decoration: none;
+  }
+ 
+  /* section one media */
+  .section-1 img {
+    width: 300px;
+    border-radius: 20px ;
+  }
+
+  .section-1 h1 {
+    color: var(--color-white);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .button-section-one{
+    padding: 15px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 10px ;
+  }
+
+  .button-section-one a {
+    font-size: 20px;
+  }
+
+
+.section-1 p {
+  font-size: 18px;
+  text-align: center;
+}
+}
