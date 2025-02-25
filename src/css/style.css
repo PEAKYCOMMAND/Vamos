@@ -92,6 +92,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: var(--color-blue2);
   }
   .section-1 img {
@@ -104,9 +105,8 @@ body{
 
 
 
-
-
 @media screen and  (max-width: 450px) {
+ 
   .menu {
     display: block;
     color: var(--color-white);
@@ -122,15 +122,15 @@ body{
   }
 
   .header{
-    padding: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
   }
 
   .header h1 {
-    font-size:18px;
+    font-size:25px;
   }
   .header img {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
   }
   .header nav a {
     font-size: 10px;
@@ -140,18 +140,18 @@ body{
  
   /* section one media */
   .section-1 img {
-    width: 300px;
+    width: 330px;
     border-radius: 20px ;
   }
 
   .section-1 h1 {
     color: var(--color-white);
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
   }
 
   .button-section-one{
-    padding: 15px;
+    padding: 20px;
     background-color: #1a73e8;
     border: none;
     border-radius: 10px ;
@@ -163,7 +163,7 @@ body{
 
 
 .section-1 p {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
 }
 }
